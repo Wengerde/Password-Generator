@@ -10,13 +10,13 @@ public class main {
 
     public static void main(String[] args) {
 
-        JFrame f = new JFrame("A JFrame");
-        f.setSize(250, 250);
-        f.setLocation(300,200);
+        JFrame passwordGenertor = new JFrame("A JFrame");
+        passwordGenertor.setSize(250, 250);
+        passwordGenertor.setLocation(300,200);
         final JTextArea textArea = new JTextArea(10, 40);
-        f.getContentPane().add(BorderLayout.CENTER, textArea);
+        passwordGenertor.getContentPane().add(BorderLayout.CENTER, textArea);
         final JButton button = new JButton("Click Me");
-        f.getContentPane().add(BorderLayout.SOUTH, button);
+        passwordGenertor.getContentPane().add(BorderLayout.SOUTH, button);
         button.addActionListener(new ActionListener() {
 
             @Override
@@ -26,7 +26,7 @@ public class main {
             }
         });
 
-        f.setVisible(true);
+        passwordGenertor.setVisible(true);
 
     }
 }

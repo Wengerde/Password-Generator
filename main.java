@@ -10,7 +10,7 @@ public class main {
 
     public static void main(String[] args) {
 
-        JFrame passwordGenertor = new JFrame("A JFrame");
+        JFrame passwordGenertor = new JFrame("Password Generator");
         passwordGenertor.setSize(250, 250);
         passwordGenertor.setLocation(300,200);
         final JTextArea textArea = new JTextArea(10, 40);

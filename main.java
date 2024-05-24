@@ -10,12 +10,12 @@ public class main {
 
     public static void main(String[] args) {
 
-        JFrame passwordGenertor = new JFrame("Password Generator");
-        passwordGenertor.setSize(250, 250);
+        JFrame passwordGenertor = new JFrame("Passwort Generator");
+        passwordGenertor.setSize(300, 300);
         passwordGenertor.setLocation(300,200);
         final JTextArea textArea = new JTextArea(10, 40);
         passwordGenertor.getContentPane().add(BorderLayout.CENTER, textArea);
-        final JButton button = new JButton("Click Me");
+        final JButton button = new JButton("erzeugen");
         passwordGenertor.getContentPane().add(BorderLayout.SOUTH, button);
         button.addActionListener(new ActionListener() {
 
